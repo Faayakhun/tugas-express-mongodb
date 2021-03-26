@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req,res)=> {
-    res.send("halo")
+    res.send("hi,this is my database,please use postman to interact with it")
 })
 
 app.use(teacherRouter)
